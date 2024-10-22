@@ -11,7 +11,7 @@ client.on('interactionCreate', async interaction => {
   if (!interaction.isChatInputCommand()) return;
 
   if (interaction.commandName === 'ping') {
-    await interaction.reply('Pong!');
+    await interaction.reply(`delay: ${client.ws.ping}ms`);
   }else if(interaction.commandName === 'exit'){
     await interaction.reply('bot close...');
     client.destroy();
