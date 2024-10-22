@@ -12,6 +12,9 @@ client.on('interactionCreate', async interaction => {
 
   if (interaction.commandName === 'ping') {
     await interaction.reply('Pong!');
+  }else if(interaction.commandName === 'exit'){
+    await interaction.reply('bot close...');
+    client.destroy();
   }
 });
 

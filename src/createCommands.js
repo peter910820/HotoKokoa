@@ -3,6 +3,10 @@ import 'dotenv/config'
 
 const commands = [
   {
+    name: 'exit',
+    description: 'close bot',
+  },
+  {
     name: 'ping',
     description: 'Replies with Pong!',
   },
