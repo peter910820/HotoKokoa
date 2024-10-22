@@ -1,2 +1,2 @@
 # HotoKokoa
-managment bot for me use discord.js
+discord.js testing
